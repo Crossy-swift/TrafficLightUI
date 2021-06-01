@@ -11,6 +11,8 @@
 		5E8F1E8626668CF400BB0A9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F1E8526668CF400BB0A9D /* ContentView.swift */; };
 		5E8F1E8826668CF400BB0A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F1E8726668CF400BB0A9D /* Assets.xcassets */; };
 		5E8F1E8B26668CF400BB0A9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F1E8A26668CF400BB0A9D /* Preview Assets.xcassets */; };
+		5E8F1E9326668DC300BB0A9D /* TrafficCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F1E9226668DC300BB0A9D /* TrafficCircle.swift */; };
+		5E8F1E952666905A00BB0A9D /* TrafficButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F1E942666905A00BB0A9D /* TrafficButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5E8F1E8726668CF400BB0A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E8F1E8A26668CF400BB0A9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E8F1E8C26668CF400BB0A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8F1E9226668DC300BB0A9D /* TrafficCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficCircle.swift; sourceTree = "<group>"; };
+		5E8F1E942666905A00BB0A9D /* TrafficButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				5E8F1E8326668CF400BB0A9D /* TrafficLightUIApp.swift */,
 				5E8F1E8526668CF400BB0A9D /* ContentView.swift */,
+				5E8F1E942666905A00BB0A9D /* TrafficButton.swift */,
+				5E8F1E9226668DC300BB0A9D /* TrafficCircle.swift */,
 				5E8F1E8726668CF400BB0A9D /* Assets.xcassets */,
 				5E8F1E8C26668CF400BB0A9D /* Info.plist */,
 				5E8F1E8926668CF400BB0A9D /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8F1E8626668CF400BB0A9D /* ContentView.swift in Sources */,
+				5E8F1E952666905A00BB0A9D /* TrafficButton.swift in Sources */,
 				5E8F1E8426668CF400BB0A9D /* TrafficLightUIApp.swift in Sources */,
+				5E8F1E9326668DC300BB0A9D /* TrafficCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
