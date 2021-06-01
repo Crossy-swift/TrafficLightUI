@@ -15,6 +15,7 @@ struct TrafficCircle: View {
             .foregroundColor(color)
             .frame(width: 150, height: 150)
             .overlay(Circle().stroke(Color.white, lineWidth: 3))
+            .shadow(color: color, radius: 10)
     }
 }
 
