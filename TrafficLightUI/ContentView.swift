@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    enum Light {
+    private enum Light {
         case red, yellow, green
     }
     
@@ -24,9 +24,9 @@ struct ContentView: View {
             Color(.black)
                 .ignoresSafeArea()
             VStack {
-                TrafficCircle(color: .red.opacity(redLight))
-                TrafficCircle(color: .yellow.opacity(yellowLight))
-                TrafficCircle(color: .green.opacity(greenLight))
+                TrafficCircle(color: .red, opacity: redLight)
+                TrafficCircle(color: .yellow, opacity: yellowLight)
+                TrafficCircle(color: .green, opacity: greenLight)
                 Spacer()
                 TrafficButton(buttonName: buttonName, action: buttonPressed)
             }.padding(.top, 20)

@@ -9,12 +9,12 @@ import SwiftUI
 
 struct TrafficButton: View {
     
-    var buttonName: String
+    let buttonName: String
     
     let action: () -> Void
     
     var body: some View {
-        Button(action: action, label: {
+        Button(action: action) {
             Text(buttonName)
                 .bold()
                 .frame(width: 170, height: 70)
@@ -22,7 +22,7 @@ struct TrafficButton: View {
                 .foregroundColor(.white)
                 .clipShape(Capsule())
                 .overlay(Capsule().stroke(Color.white, lineWidth: 3))
-        })
+        }
     }
 }
 
